@@ -157,11 +157,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/realms/jhipster
+            issuer-uri: http://localhost:8090/realms/graduation_project
         registration:
           oidc:
-            client-id: web_app
-            client-secret: web_app
+            client-id: daotao
+            client-secret: vdIHDVj9wNEAU3pkbVCnYFYnXbVIkpg1
             scope: openid, profile, email, offline_access # last one for refresh tokens
 
 server:
